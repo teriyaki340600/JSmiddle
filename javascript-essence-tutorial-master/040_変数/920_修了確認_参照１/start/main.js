@@ -8,6 +8,8 @@ let val2 = val;
 val2 = 1;
 
 // console.log(val); // 問題１
+// console.log(val2); 
+
 
 let obj = {
     prop1: 10
@@ -28,7 +30,8 @@ let obj3 = fn1(obj2);
 function fn2(arg) {
     arg = {};
     return arg;
-}
-const obj4 = fn2(obj); // 問題４
 
-// console.log(obj); // 問題４
+}
+// const obj4 = fn2(obj); // 問題４
+
+console.log(obj); // 問題４
